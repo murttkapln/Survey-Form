@@ -11,21 +11,30 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Survey Form</title>
+    <title>Document</title>
   </head>
   <body>
     <div id="container">
       <header id="header">
         <h1 id="title">NET<span>FLIX</span></h1>
         <h3 id="description">
-          Thanks for signing up to Netflix.Tell me more about yourself.
+          Thank you for signing up to Netflix.Tell me more about yourself.
         </h3>
       </header>
-
       <section id="survey-form-container">
         <form action="result.html" method="get">
           <div class="input-box">
-            <label for="name">Name</label> <br />
+            <!-- <label
+              >Name
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="enter your name"
+              />
+            </label> -->
+            <label for="name">Name</label>
+            <br />
             <input
               type="text"
               name="name"
@@ -35,12 +44,7 @@
           </div>
           <div class="input-box">
             <label for="age">Age</label><br />
-            <input
-              type="number"
-              name="age"
-              id="age"
-              placeholder="enter your age"
-            />
+            <input type="number" name="age" id="age" placeholder="age" />
           </div>
           <div class="input-box">
             <label for="email">Email</label><br />
@@ -51,16 +55,14 @@
               placeholder="enter your email"
             />
           </div>
-
           <div class="input-box">
             <label for="">Content Type</label><br />
-            <select name="acontent" id="dropdown">
+            <select name="content" id="dropdown">
               <option value="movies">Movies</option>
-              <option value="series">Series</option>
-              <option value="tv-shows">Tv Shows</option>
+              <option value="series" selected>Series</option>
+              <option value="tv-shows">TV Shows</option>
             </select>
           </div>
-
           <div class="input-box" id="checkbox">
             <label for="">Movie Type</label><br />
             <input type="checkbox" name="movie1" id="first-check" />
@@ -70,14 +72,14 @@
             <label for="second-check">Action</label>
             <br />
             <input type="checkbox" name="movie3" id="third-check" />
-            <label for="thrd-check">Romance</label>
+            <label for="third-check">Romance</label>
+            <br />
           </div>
-
           <div class="input-box" id="radio">
             <label for="">Gender</label>
             <br />
-            <input type="radio" name="gender" id="first-radio" value="male" />
-            <label for="first-radio"> Male </label>
+            <input type="radio" name="gender" id="first-radio" value="Male" />
+            <label for="first-radio">Male</label>
             <br />
             <input
               type="radio"
@@ -85,14 +87,14 @@
               id="second-radio"
               value="female"
             />
-            <label for="second-radio"> Female </label>
+            <label for="second-radio">Female</label>
             <br />
-            <input type="radio" name="gender" id="third-radio" value="others" />
-            <label for="third-radio"> Others </label>
+            <input type="radio" name="gender" id="third-radio" value="other" />
+            <label for="third-radio">Other</label>
           </div>
-
           <div class="input-box">
-            <label for="feedback">Feedback</label><br />
+            <label for="feedback">Feedback</label>
+            <br />
             <textarea
               name="feedback"
               id="feedback"
@@ -102,7 +104,8 @@
             ></textarea>
           </div>
           <div class="form-submit">
-            <button id="form-button">Send</button>
+            <!-- <input type="submit" value="Send" /> -->
+            <button type="submit" id="form-button">Send</button>
           </div>
         </form>
       </section>
