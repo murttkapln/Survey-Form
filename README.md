@@ -1,13 +1,11 @@
-# Survey-Form
-
-
-[Click me!](https://murttkapln.github.io/Survey-Form/)
 
 
 <p>Clarusway<img align="right"
   src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
-# Project-001 :Survey Form (HC-01)
+# Project-001 :Survey Form 
+
+[Click me!](https://murttkapln.github.io/Survey-Form/)
 
 ## Description
 Project aims to create survey form within html and css.
