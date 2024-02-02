@@ -97,7 +97,7 @@ Functionally create a Survey Form as in the image above
 
 ## Resources
 
--  [Background Image Url](./background_image.jpg)
+-  [Background Image Url](https://github.com/murttkapln/Survey-Form/background_image.jpg)
 
 
 
