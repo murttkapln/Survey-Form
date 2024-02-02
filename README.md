@@ -29,7 +29,7 @@ Project aims to create survey form within html and css.
 
 ## Expected Outcome
 
-![Project Snapshot]((https://github.com/murttkapln/Survey-Form/image/Project.png)
+![Project Snapshot](https://github.com/murttkapln/Survey-Form/image/Project.png)
 
 
 ## Objective
