@@ -1,6 +1,6 @@
 
 
-# Project-001 :Survey Form 
+# Survey Form 
 
 [Click me!](https://murttkapln.github.io/Survey-Form/)
 
@@ -18,7 +18,7 @@ Project aims to create survey form within html and css.
 ## Project Skeleton 
 
 ```
-001-survey-form (folder)
+survey-form (folder)
 |
 |----readme.md             
 |----solution
